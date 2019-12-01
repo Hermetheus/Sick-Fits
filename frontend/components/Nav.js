@@ -1,5 +1,6 @@
-import Link from "next/link";
-import NavStyles from "./styles/NavStyles";
+import React from 'react';
+import Link from 'next/link';
+import NavStyles from './styles/NavStyles';
 
 const Nav = () => (
   <NavStyles>
