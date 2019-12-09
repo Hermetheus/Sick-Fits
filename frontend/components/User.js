@@ -1,6 +1,6 @@
-import { Query } from "react-apollo";
-import gql from "graphql-tag";
-import PropTypes from "prop-types";
+import { Query } from 'react-apollo';
+import gql from 'graphql-tag';
+import PropTypes from 'prop-types';
 
 const CURRENT_USER_QUERY = gql`
   query {
@@ -19,7 +19,7 @@ const User = props => (
   </Query>
 );
 
-User.PropTypes = {
+User.propTypes = {
   children: PropTypes.func.isRequired
 };
 
