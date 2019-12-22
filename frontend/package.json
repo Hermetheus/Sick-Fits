@@ -59,7 +59,8 @@
     "transform": {
       "\\.(gql|graphql)$": "jest-transform-graphql",
       ".*": "babel-jest",
-      "^.+\\.js?$": "babel-jest"
+      "^.+\\.js?$": "babel-jest",
+      "\\.js$": "<rootDir>/node_modules/babel-jest"
     }
   },
   "//": "This is our babel config, I prefer this over a .babelrc file",
