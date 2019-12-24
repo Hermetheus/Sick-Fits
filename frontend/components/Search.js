@@ -24,7 +24,7 @@ const SEARCH_ITEMS_QUERY = gql`
 `;
 
 function routeToItem(item) {
-  console.log(item);
+  // console.log(item);
   Router.push({
     pathname: '/item',
     query: {
@@ -40,7 +40,7 @@ class AutoComplete extends React.Component {
   };
 
   onChange = debounce(async (e, client) => {
-    console.log('Searching');
+    // console.log('Searching');
     // console.log('Im inside the onchange handler');
     // console.log(client);
     // turn loading on

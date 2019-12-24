@@ -9,15 +9,15 @@ import Search from './Search';
 
 Router.onRouteChangeStart = () => {
   NProgress.start();
-  console.log('onRouteChangeStart Triggered');
+  // console.log('onRouteChangeStart Triggered');
 };
 Router.onRouteChangeError = () => {
   NProgress.done();
-  console.log('onRouteChangeError Triggered');
+  // console.log('onRouteChangeError Triggered');
 };
 Router.onRouteChangeComplete = () => {
   NProgress.done();
-  console.log('onRouteChangeComplete Triggered');
+  // console.log('onRouteChangeComplete Triggered');
 };
 
 const Logo = styled.h1`

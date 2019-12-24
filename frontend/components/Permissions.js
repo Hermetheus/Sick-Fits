@@ -104,7 +104,7 @@ class UserPermissions extends React.Component {
       updatePermissions();
     });
 
-    console.log(updatedPermissions);
+    // console.log(updatedPermissions);
   };
 
   render() {

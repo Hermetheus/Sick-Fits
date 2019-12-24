@@ -59,7 +59,7 @@ export default class Page extends Component {
           <Header />
 
           <Inner>{this.props.children}</Inner>
-          {console.log(this)}
+          // {console.log(this)}
         </StyledPage>
       </ThemeProvider>
     );

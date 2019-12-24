@@ -57,7 +57,7 @@ class Reset extends Component {
               e.preventDefault();
               const res = await reset();
 
-              console.log(res);
+              // console.log(res);
               this.setState({ password: "", confirmPassword: "" });
             }}
           >
