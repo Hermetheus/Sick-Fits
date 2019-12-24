@@ -61,7 +61,10 @@
       ".*": "babel-jest",
       "^.+\\.js?$": "babel-jest",
       "\\.js$": "<rootDir>/node_modules/babel-jest"
-    }
+    },
+    "transformIgnorePatterns": [
+      "[/\\\\]node_modules[/\\\\].+\\.(js|jsx|mjs)$"
+    ]
   },
   "//": "This is our babel config, I prefer this over a .babelrc file",
   "babel": {
