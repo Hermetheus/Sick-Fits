@@ -51,20 +51,18 @@
     "prettier": "^1.19.1"
   },
   "jest": {
+    "clearMocks": true,
+    "verbose": false,
     "setupTestFrameworkScriptFile": "<rootDir>/jest.setup.js",
     "testPathIgnorePatterns": [
       "<rootDir>/.next/",
-      "<rootDir>/node_modules/"
+      "<rootDir>/node_modules/",
+      "\\\\node_modules\\\\"
     ],
     "transform": {
       "\\.(gql|graphql)$": "jest-transform-graphql",
-      ".*": "babel-jest",
-      "^.+\\.js?$": "babel-jest",
-      "\\.js$": "<rootDir>/node_modules/babel-jest"
-    },
-    "transformIgnorePatterns": [
-      "[/\\\\]node_modules[/\\\\].+\\.(js|jsx|mjs)$"
-    ]
+      ".*": "babel-jest"
+    }
   },
   "//": "This is our babel config, I prefer this over a .babelrc file",
   "babel": {

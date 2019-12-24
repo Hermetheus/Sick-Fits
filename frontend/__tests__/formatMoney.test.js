@@ -1,4 +1,4 @@
-import formatMoney from '../lib/formatMoney';
+const formatMoney = require('../lib/formatMoney');
 
 // unit testing
 

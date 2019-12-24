@@ -277,7 +277,7 @@ const Mutations = {
       throw new Error('Cheatin huhh');
     }
     // delete the cart item
-    return ctx.db.mutation.deleteCartItem(
+    return ctx.db.mzutation.deleteCartItem(
       {
         where: { id: args.id }
       },
